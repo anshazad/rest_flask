@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Example</title>
+	<script src="static/utility.js"></script>
+  </head>
+  <body>
+	<h2>Example</h2>	
+	<form name="my_form" >
+		Enter a Number : &nbsp; <input type="text" name = "A"><br>
+
+		<input type="button" class="btn btn-sm" onclick="submitData('submitJSON')" value="Submit">	
+	</form>	
+	<div class="row">
+    			<div class="col-md-8" align="left" style="float:left; margin-top: 0.45cm;" id="output_div">
+    			</div>
+    	</div>			
+</body>
+</html>
